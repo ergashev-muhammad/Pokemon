@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Document</title>
+</head>
+<body class="bg-primary">
+    
+    <section class="pokemon">
+        <div class="container">
+            
+            <a class="pokemon__link" href="index.html">
+                <img class="pokemon__image d-block mx-auto mb-5" 
+                src="./images/pokemon_logo 1.png" 
+                alt="" 
+                width="610"
+                height="225">
+            </a>
+
+            <h1 class="pokemon__title visually-hidden">Pokemon</h1>
+            
+            
+            <form class="pokemon__form d-flex">
+                <input class="pokemon__input--first form-control px-2 py-3 g-0" type="text" readonly value="http://www.serebii.net/pokemongo/pokemon/025.png" required>
+                
+                <input class="pokemon__input--second form-control px-2  py-3 g-0" type="text" required>
+                
+                <input class="pokemon__input--third form-control px-2 py-3 g-0" type="text" required>
+
+                <input class="pokemon__input--fourth form-control px-2 py-3 g-0" type="number" required>
+
+                <input class="pokemon__input--fifth form-control px-2 py-3 g-0" type="number" required>
+                
+                <button class="pokemon__button bg-light" type="submit">Button</button>
+            </form>
+            
+            
+            
+            <ul class="pokemon__list">
+                <li class="pokemon__item bg-light">
+                    
+                    <img class="pokemon__img" 
+                    src="./images/0041.png" 
+                    alt=""
+                    width="157"
+                    height="157">
+                    
+                    <strong></strong>
+                    
+                    <h3 class="pokemon__heading">Pokemons</h3>
+                    
+                    <paragraph class="pokemon__paragraph">Grass, Poison</paragraph>
+                    
+                    <ul class="pokemon__infos">
+                        <li class="pokemon__info">6.9 kg</li>
+                        <li class="pokemon__info">99 age</li>
+                    </ul>
+                    
+                </li>
+            </ul>
+            
+            
+            
+        </div>
+    </section>
+    
+    
+    <script src="node_modules/bootstrap/dist/css/bootstrap.min.css"></script>
+    <script src="js/pokemon.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
